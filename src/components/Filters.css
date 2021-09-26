@@ -1,0 +1,112 @@
+.filterToggle {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.filters_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  transition: 0.3s;
+  transform: scaleY(0) translateY(-100%);
+  transform-origin: top;
+  height: 0;
+  opacity: 0;
+}
+.showFilter {
+  transform: scaleY(1) translateY(0);
+  transform-origin: bottom;
+  opacity: 1;
+  height: auto;
+}
+.filter_group {
+  padding: 20px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid #fff;
+}
+.filter_group input[type="text"],
+.filter_group input[type="number"] {
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.stars .one {
+  border: 2px solid gold;
+}
+.stars .two {
+  border: 2px solid gold;
+}
+.stars .three {
+  border: 2px solid gold;
+}
+.stars .four {
+  border: 2px solid gold;
+}
+.stars .five {
+  border: 2px solid gold;
+}
+/* .stars {
+  border: 1px solid gold;
+} */
+.priceRange {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.priceRange input[type="number"] {
+  width: 30%;
+}
+.priceRange input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+/* color */
+.colors {
+  max-height: 150px;
+  overflow: auto;
+}
+.colors input[type="checkbox"] {
+  cursor: pointer;
+  margin-right: 10px;
+}
+/* rating */
+.rateFilter {
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.rateFilter:first-of-type {
+  margin-top: 10px;
+}
+button.clear {
+  border: none;
+  outline: none;
+  color: #f00;
+  margin-top: 10px;
+  cursor: pointer;
+  border: 1px solid #f00;
+  padding-top: 3px;
+}
+/* sort */
+.sort_group {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sort_group h3 {
+  margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+<!-- <svg xmlns="http://www.w3.org/2000/svg" width="306" height="29" viewBox="0 0 306 29" fill="none">
+  <link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-custom-link"/>
+  <link xmlns="" type="text/css" rel="stylesheet" id="dark-mode-general-link"/>
+  <style xmlns="" lang="en" type="text/css" id="dark-mode-custom-style"/>
+  <style xmlns="" lang="en" type="text/css" id="dark-mode-native-style"/>
+<linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#fcf6ba;stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#bf953f;stop-opacity:1"/>
+</linearGradient>
+<path
+    transform="scale(1.80, 1.80)"
+    d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"
+    fill="url(#grad1)"
+  ></path>
+<path
+    transform="scale(1.80, 1.80)"
+    d="M10 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"
+    fill="url(#grad1)"
+  ></path>
+</svg> -->
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true">
+  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#fcf6ba;stop-opacity:1"/>
+    <stop offset="100%" style="stop-color:#bf953f;stop-opacity:1"/>
+  </linearGradient>
+  <path transform="scale(1.33, 1.33)" d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z" fill="url(#grad1)"></path>  
+</svg>
